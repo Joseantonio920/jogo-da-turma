@@ -27,7 +27,7 @@ shurik=button:new(width-64, height-128, 32, 32)
 local world=require "scr/world"
 cam=require "libs/cam"
 anim=require "libs/anim"
-shurikens=require "scr/shurikens"
+bullet=require "scr/bullet"
 mundo=world:new("mapas/2.png")
 
 function love.draw()
